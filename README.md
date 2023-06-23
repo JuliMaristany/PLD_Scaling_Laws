@@ -1,4 +1,5 @@
-# Universal_PLD_Codes
+# Universal Codes for PLD domains: MD Simulations
+
 ## Source code for "Universal Predictive Scaling Laws of Phase Separation of Prion-Like Low Complexity Domains"
 
 We are delighted to share our code with the community. Please use it freely and cite our paper (Preprint: https://doi.org/10.1101/2023.06.14.543914). We are happy to answer any questions and comments by email (jerellejoseph@princeton.edu), and welcome contributions for any updates.
@@ -18,6 +19,6 @@ To run an example simulation
 
   mpirun -np 8 ./lmp -in lammps.in
 
-These simulations generate slab trajectories for a particular example PLD
+These simulations generate slab trajectories for a particular example PLD.
 
 ## Instructions to reproduce results
