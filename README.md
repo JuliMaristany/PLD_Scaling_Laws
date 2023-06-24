@@ -8,7 +8,7 @@ We are delighted to share our code with the community. Please use it freely and 
 
 Linux with C++ compilers with MPI. Tested on: CSD3 cclake cluster (https://docs.hpc.cam.ac.uk/hpc/user-guide/cclake.html) with Intel compilers
 
-LAMMPS is required for running MD sims. To build follow instructions on https://docs.lammps.org/Build.html, specifically for the stable version of September 2021.
+LAMMPS is required for running MD sims. To build follow instructions on https://docs.lammps.org/Build.html, specifically for the stable version of September 2021. The typical installation time for a desktop computer is roughly 1 hour.
 
 ## Demo
 
