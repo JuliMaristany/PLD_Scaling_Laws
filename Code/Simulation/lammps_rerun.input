@@ -8,9 +8,9 @@ dimension   3
 boundary    p p p
 atom_style  full
 
-shell cd TIA_WT/
+shell cd SEQUENCE/
 
-read_data TIA_WT.config
+read_data SEQUENCE.config
 
 log log_rerun.$T
 
@@ -923,7 +923,7 @@ thermo        1000000
 thermo_style  custom step pe temp  press ke lx ly lz pzz  spcpu density 
 thermo_modify flush yes
 
-dump          1 all custom 1000000 TIA_WT-$T_rerun.xyz id mol type q x y z 
+dump          1 all custom 1000000 SEQUENCE-$T_rerun.xyz id mol type q x y z 
 dump_modify 1 sort id
 
 rerun TIA_WT-$T_test.xyz dump x y z purge no add yes replace yes wrapped no  
