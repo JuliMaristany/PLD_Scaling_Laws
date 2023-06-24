@@ -27,6 +27,9 @@ To reproduce a particular binodal, or to create a new one,
 
 1. Prepare input scripts:
   - Move into the Code/Inputs folder
-  - 
-2.  
+  - Replace the sequences in the file with the sequence of your desired PLD
+  - Run script to obtain lammps config file
+2. Run MD simulation:
+ - The lammps scripts provided in Code/Simulation take a single PLD as an input and compute the slab geometry from scratch, first by replicating the protein and then by entending the simulation box in one direction. The only user input needed is the name of the config file, and the range of temperatures wished to simulate
+3. Analysis scripts are provided in Code/Analysis, to obtain first the density profiles and then the bindals fitted witht he law of rectilinear diameter. More detailed instructions are found in the README.md files on Code/Analysis.
 
