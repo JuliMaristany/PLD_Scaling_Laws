@@ -12,13 +12,21 @@ LAMMPS is required for running MD sims. To build follow instructions on https://
 
 ## Demo
 
-To run an example simulation
+To run an example simulation,
 
 1. Move into the demo folder
 2. Run lammps using at least 8 cores 
 
-  mpirun -np 8 ./lmp -in lammps.in
+ > mpirun -np 8 ./lmp -in lammps.in
 
-These simulations generate slab trajectories for a particular example PLD.
+These simulations generate slab trajectories for a particular example PLD (TIA1 Wild Type).
 
-## Instructions to reproduce results
+## Reproduction of results: Simulation and analysis of an MD slab trajectory
+
+To reproduce a particular binodal, or to create a new one,
+
+1. Prepare input scripts:
+  - Move into the Code/Inputs folder
+  - 
+2.  
+
