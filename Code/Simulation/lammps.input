@@ -1,5 +1,5 @@
-variable d universe TIA_WT TIA_YtoF  TIA_YtoF_2  TIA_m6Y  TIA_YtoW  TIA_YtoW_2  TIA_WtoF  TIA_WtoY  TIA_GtoS  TIA_GtoS_3  TIA_GtoS_9  TIA_StoG  TIA_QtoN  TIA_QtoN_2  TIA_NtoQ
- 
+variable d universe SEQUENCE_1 SEQUENCE_2 ... SEQUENCE_N 
+
 label loopT
 variable x loop 5
 
