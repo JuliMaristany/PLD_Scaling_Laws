@@ -1,6 +1,6 @@
-# Universal Codes for PLD domains: MD Simulations
+# Scaling Laws for PLD domains: MD Simulations
 
-## Source code for "Universal Predictive Scaling Laws of Phase Separation of Prion-Like Low Complexity Domains"
+## Source code for "Decoding Phase Separation of Prion-Like Domains through Data-Driven Scaling Laws"
 
 We are delighted to share our code with the community. Please use it freely and cite our paper (Preprint: https://doi.org/10.1101/2023.06.14.543914). We are happy to answer any questions and comments by email (jerellejoseph@princeton.edu), and welcome contributions for any updates.
 
